@@ -11,7 +11,7 @@ Writing secure code is essential to protect your application and its users from 
 
 2. **Output Encoding:** Implement output encoding to prevent XSS attacks. Perform code review to ensure output encoding is implemented correctly. This is also easy due to the fact that alot of well known frameworks such as Django, React, express etc have this built in already.
 
-3. **Parameterized Queries:** Use parameterized queries instead of dynamic queries to prevent SQL injection attacks. Perform code review to ensure parameterized queries are implemented correctly.
+3. **Parameterized Queries:** Use parameterized queries instead of dynamic queries to prevent SQL injection attacks. Perform code review to ensure parameterized queries are implemented correctly.Once again, a great framework should handle this.
 
 4. **Authentication and Authorization:** Use the authentication and authorization features provided by your framework and avoid writing your own. Follow OWASP advice on password management.
 
