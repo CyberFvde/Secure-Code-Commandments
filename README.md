@@ -7,7 +7,7 @@ Writing secure code is essential to protect your application and its users from 
 
 ## The Commandments
 
-1. **Input Validation:** Validate all user input data to prevent malicious data injection. Use OWASP advice and perform code review to ensure input validation is implemented correctly.
+1. **Input Validation:** Validate all user input data to prevent malicious data injection. Use OWASP advice and perform code review to ensure input validation is implemented correctly. This is easy due to the fact that alot of well known frameworks such as Django, React, express etc have this built in already.
 
 2. **Output Encoding:** Implement output encoding to prevent XSS attacks. Perform code review to ensure output encoding is implemented correctly.
 
