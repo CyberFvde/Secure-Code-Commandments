@@ -21,7 +21,7 @@ Writing secure code is essential to protect your application and its users from 
 
 7. **Caching Sensitive Data:** Avoid caching sensitive page data. Perform code review to ensure caching is not used inappropriately.
 
-8. **Secure Cookies:** Follow best practices to secure your cookies.
+8. **Secure Cookies:** Follow best practices to secure your cookies. Encrypt any sensitive data stored in cookies, such as user IDs or access tokens. This helps prevent data theft and tampering.
 
 9. **File Uploads:** Take every possible precaution when performing file uploads. Follow OWASP advice and scan uploaded files.
 
