@@ -35,7 +35,7 @@ Writing secure code is essential to protect your application and its users from 
 
 14. **Password Managers:** Allow users to cut and paste into the password field to use password managers.
 
-15. **Secret Management:** Keep all connection strings, hashes, passwords, and other secrets in a secret store. Follow secret management best practices.
+15. **Secret Management:** Keep all connection strings, hashes, passwords, and other secrets in a secret store. Follow secret management best practices. Some good free open source secret management tools include hashiCorpVault & Passbolt etc.
 
 16. **Password Hashing:** Hash and salt all passwords.
 
